@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  padding: 40px 20px;
+}
+
+body {
+  background-color: rgb(226 232 240);
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#player {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+#title {
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#controls img {
+  cursor: pointer;
+  padding: 12px;
+}
